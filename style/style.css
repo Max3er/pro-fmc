@@ -1,0 +1,86 @@
+/* import config */
+/* Reset */
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+/* Fonts */
+/* Main colors */
+/* Margins */
+/* Extensions */
+.header-main {
+  font-weight: bold;
+  color: #383838; }
+
+.header-box-title, .header-box p {
+  font-weight: bold;
+  color: #FFF;
+  font-size: 28px; }
+
+/* Margin settings /* */
+.left-margin {
+  margin-left: 50px; }
+
+.right-margin {
+  margin-right: 50px;
+  /* Usable variables */ }
+
+body {
+  font: Roboto, sans-serif;
+  background-color: #FFF; }
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #000; }
+
+.main-container {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-left: 25px;
+  padding-right: 25px; }
+
+/* Header */
+.header-logo img {
+  margin: 0 auto;
+  display: block; }
+
+/* Main navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+  ul li {
+    float: right; }
+    ul li a {
+      padding-left: 20px;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 300;
+      color: #383838; }
+    ul li a:hover {
+      text-decoration: underline; }
+
+/* Box headers */
+.header-box {
+  padding: 50px; }
+
+.box-darkgrey {
+  background-color: #383838; }
+
+.box-green {
+  background-color: #237861; }
+
+/* Box content */
+.content-box {
+  padding: 50px;
+  background-color: #FFF; }
+  .content-box p {
+    padding-bottom: 25px; }
+
+/*# sourceMappingURL=style.css.map */

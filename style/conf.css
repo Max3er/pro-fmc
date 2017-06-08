@@ -1,0 +1,30 @@
+/* Reset */
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+/* Fonts */
+/* Main colors */
+/* Margins */
+/* Extensions */
+.header-main {
+  font-weight: bold;
+  color: #383838; }
+
+.header-box-title {
+  font-weight: bold;
+  color: #FFF;
+  font-size: 28px; }
+
+/* Margin settings /* */
+.left-margin {
+  margin-left: 50px; }
+
+.right-margin {
+  margin-right: 50px;
+  /* Usable variables */ }
+
+/*# sourceMappingURL=conf.css.map */

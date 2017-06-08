@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAEA;;;EAAK;EAIH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;;;;;;AAyBZ,YAAY;EACV,WAAW,EAAE,IAAI;EACjB,KAAK,EAnBa,OAAO;;AAqB3B,iBAAiB;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EAhBa,IAAI;EAiBtB,SAAS,EAAE,IAAI;;;AAIjB,YAAY;EACV,WAAW,EAjBO,IAAI;;AAmBxB,aAAa;EACX,YAAY,EApBM,IAAI",
+"sources": ["conf.sass"],
+"names": [],
+"file": "conf.css"
+}
