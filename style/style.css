@@ -36,7 +36,9 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 32px;
-  color: #000; }
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  speak: none; }
 
 .main-container {
   margin: 0 auto;
