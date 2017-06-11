@@ -25,7 +25,11 @@ ol {
   margin-left: 50px; }
 
 .right-margin {
-  margin-right: 50px;
+  margin-right: 50px; }
+
+/* Responsive settings /* */
+.resp-hide-show {
+  display: none !important;
   /* Usable variables */ }
 
 /*# sourceMappingURL=conf.css.map */

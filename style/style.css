@@ -1,4 +1,4 @@
-/* import config */
+/* import config and responsive */
 /* Reset */
 html,
 body,
@@ -8,6 +8,7 @@ ol {
   padding: 0; }
 
 /* Fonts */
+/* Fonts responsive */
 /* Main colors */
 /* Margins */
 /* Extensions */
@@ -25,9 +26,66 @@ ol {
   margin-left: 50px; }
 
 .right-margin {
-  margin-right: 50px;
+  margin-right: 50px; }
+
+/* Responsive settings /* */
+.resp-menu {
+  display: none;
   /* Usable variables */ }
 
+/* Reset */
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+/* Fonts */
+/* Fonts responsive */
+/* Main colors */
+/* Margins */
+/* Extensions */
+.header-main {
+  font-weight: bold;
+  color: #383838; }
+
+.header-box-title, .header-box p {
+  font-weight: bold;
+  color: #FFF;
+  font-size: 28px; }
+
+/* Margin settings /* */
+.left-margin {
+  margin-left: 50px; }
+
+.right-margin {
+  margin-right: 50px; }
+
+/* Responsive settings /* */
+.resp-menu {
+  display: none;
+  /* Usable variables */ }
+
+/* Responsive - mobile */
+@media only screen and (max-width: 765px) {
+  .resp-menu {
+    display: block; }
+
+  .left-margin {
+    margin-left: 0px !important; }
+
+  .right-margin {
+    margin-right: 0px !important; }
+
+  .content-box {
+    padding: 0px !important;
+    margin-top: 25px; }
+
+  .header-box {
+    padding: 25px !important; }
+    .header-box p {
+      font-size: 23px; } }
 body {
   font: Roboto, sans-serif;
   background-color: #FFF; }

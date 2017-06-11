@@ -27,9 +27,23 @@
 
 <body>
 
-  <div class="main-container">
+  <div class="resp-menu"><!-- Start: Responsive menu -->
 
-    <section class="section">
+    <div class="columns is-mobile">
+
+      <div class="column is-4 is-offset-8" style="background-color: red;">
+
+        Skriver någe
+
+      </div>
+
+    </div>
+
+  </div> <!-- End: Responsive menu -->
+
+  <div class="main-container"> <!-- Start: Main container -->
+
+    <section class="section"> <!-- Start: Desktop logo and menu -->
 
       <div class="columns">
 
@@ -43,7 +57,7 @@
 
         </div>
 
-        <div class="column">
+        <div class="column"> <!-- Start: Desktop menu -->
 
           <ul>
 
@@ -55,15 +69,15 @@
 
           </ul>
 
-        </div> <!-- End: Navigation -->
+        </div> <!-- End: Desktop menu -->
 
       </div>
 
-    </section>
+    </section> <!-- End: Desktop logo and menu -->
 
-    <section class="section">
+    <section class="section"> <!-- Start: Main content - About and Login -->
 
-      <div class="columns">
+      <div class="columns"> <!-- Start: Columns -->
 
         <div class="column is-half">
 
@@ -99,9 +113,9 @@
 
       </div> <!-- End: columns -->
 
-    </section> <!-- End: section -->
+    </section> <!-- End: Main content - About and Login -->
 
-  </div> <!-- End: main-container -->
+  </div> <!-- End: Main container -->
 
   <!-- HS - Template javascript -->
   <script src="js/scripts.js"></script>
