@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,yCAAyC;EAEvC,YAAY;IACV,WAAW,EAAE,cAAc;;EAE7B,aAAa;IACX,YAAY,EAAE,cAAc",
+"sources": ["resp.sass"],
+"names": [],
+"file": "resp.css"
+}

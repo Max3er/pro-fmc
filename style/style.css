@@ -47,9 +47,11 @@ p {
   padding-right: 25px; }
 
 /* Header */
-.header-logo img {
-  margin: 0 auto;
-  display: block; }
+.header-logo {
+  margin-right: 50px; }
+  .header-logo img {
+    margin: 0 auto;
+    display: block; }
 
 /* Main navigation */
 ul {
