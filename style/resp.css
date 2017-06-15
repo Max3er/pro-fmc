@@ -34,8 +34,14 @@ ol {
 
 /* Responsive - mobile */
 @media only screen and (max-width: 765px) {
+  .section {
+    padding: 1.5rem 1.5rem !important; }
+
   .resp-menu {
     display: block; }
+
+  .desk-menu {
+    display: none !important; }
 
   .left-margin {
     margin-left: 0px !important; }
@@ -46,6 +52,9 @@ ol {
   .content-box {
     padding: 0px !important;
     margin-top: 25px; }
+
+  .header-logo {
+    margin-right: 0px !important; }
 
   .header-box {
     padding: 25px !important; }
