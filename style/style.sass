@@ -9,7 +9,7 @@ body
 
 p
   font-size: 16px
-  font-weight: 400
+  font-weight: lighter
   line-height: 32px
   color: $text-color
   -webkit-font-smoothing: antialiased
@@ -32,18 +32,23 @@ p
 
 /* Main navigation */
 
+.desk-menu
+  display: flex !important
+  justify-content: flex-end
+  align-items: center
+
 ul
+  display: flex
   list-style-type: none
   margin: 0
   padding: 0
-  overflow: hidden
+  //overflow: hidden
   li
-    float: right
     a
-      padding-left: 20px
+      padding-left: 25px
       font-size: 18px
       text-transform: uppercase
-      font-weight: 300
+      font-weight: 400
       color: $darkgrey
     a:hover
       text-decoration: underline
