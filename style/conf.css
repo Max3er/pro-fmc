@@ -6,6 +6,9 @@ ol {
   margin: 0;
   padding: 0; }
 
+.section {
+  padding: 1.7rem 1.5rem !important; }
+
 /* Fonts */
 /* Fonts responsive */
 /* Main colors */
@@ -28,8 +31,8 @@ ol {
   margin-right: 50px; }
 
 /* Responsive settings /* */
-.resp-hide-show {
-  display: none !important;
+.resp-menu {
+  display: none;
   /* Usable variables */ }
 
 /*# sourceMappingURL=conf.css.map */

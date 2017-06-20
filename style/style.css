@@ -7,6 +7,9 @@ ol {
   margin: 0;
   padding: 0; }
 
+.section {
+  padding: 1.7rem 1.5rem !important; }
+
 /* Fonts */
 /* Fonts responsive */
 /* Main colors */
@@ -40,6 +43,9 @@ ul,
 ol {
   margin: 0;
   padding: 0; }
+
+.section {
+  padding: 1.7rem 1.5rem !important; }
 
 /* Fonts */
 /* Fonts responsive */
@@ -97,7 +103,8 @@ ol {
       font-size: 23px; } }
 body {
   font: Roboto, sans-serif;
-  background-color: #FFF; }
+  background-color: #FFF;
+  margin-top: 1.7rem !important; }
 
 p {
   font-size: 16px;
@@ -115,10 +122,10 @@ p {
 
 /* Header */
 .header-logo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
   margin-right: 50px; }
-  .header-logo img {
-    margin: 0 auto;
-    display: block; }
 
 /* Main navigation */
 .desk-menu {
@@ -156,5 +163,21 @@ ul {
   background-color: #FFF; }
   .content-box p {
     padding-bottom: 25px; }
+
+/* Components */
+.main-button {
+  background-color: #237861;
+  color: white;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  font-weight: 500; }
+  .main-button:hover {
+    background-color: #F2F2F2;
+    border-style: solid;
+    border-color: #237861;
+    border-width: 1px;
+    color: #237861; }
+  .main-button:last-child {
+    margin-left: 20px; }
 
 /*# sourceMappingURL=style.css.map */

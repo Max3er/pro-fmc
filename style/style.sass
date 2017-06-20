@@ -6,6 +6,7 @@
 body
   font: $font-stack
   background-color: #FFF
+  margin-top: 1.7rem !important
 
 p
   font-size: 16px
@@ -14,7 +15,6 @@ p
   color: $text-color
   -webkit-font-smoothing: antialiased
   speak: none
-
 
 .main-container
   margin: 0 auto
@@ -25,10 +25,10 @@ p
 /* Header */
 
 .header-logo
+  display: flex
+  align-content: center
+  justify-content: center
   margin-right: 50px
-  img
-    margin: 0 auto
-    display: block
 
 /* Main navigation */
 
@@ -42,7 +42,6 @@ ul
   list-style-type: none
   margin: 0
   padding: 0
-  //overflow: hidden
   li
     a
       padding-left: 25px
@@ -73,3 +72,20 @@ ul
   background-color: #FFF
   p
     padding-bottom: 25px
+
+/* Components */
+
+.main-button
+  background-color: $green
+  color: white
+  padding: 15px 40px
+  text-transform: uppercase
+  font-weight: 500
+  &:hover
+    background-color: $light-grey
+    border-style: solid
+    border-color: $green
+    border-width: 1px
+    color: $green
+  &:last-child
+    margin-left: 20px
