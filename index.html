@@ -1,3 +1,10 @@
+<!-- ANTECKNINGAR
+
+- Mixin för mobiltelefoner, kolla in det
+- Fontawsome är grymt att använda
+
+-->
+
 <!doctype html>
 
 <html lang="sv">
@@ -17,6 +24,9 @@
   <!-- Bulma framework -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.1/css/bulma.css">
 
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+
   <!-- Robot font -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700" rel="stylesheet">
 
@@ -29,104 +39,116 @@
 
   <div class="main-container"> <!-- Start: Main container -->
 
-    <div class="resp-menu"><!-- Start: Responsive menu -->
+    <div class="content-container"><!-- Start: Containing all top menus -->
 
-      <div class="columns is-mobile">
+      <div class="resp-menu"><!-- Start: Responsive menu -->
 
-        <div class="column is-4 is-offset-8" style="background-color: red;">
+        <div class="columns is-mobile">
 
-          Skriver någe
+          <div class="column is-4 is-offset-8" style="background-color: red;">
 
-        </div>
-
-      </div>
-
-    </div> <!-- End: Responsive menu -->
-
-    <section class="section"> <!-- Start: Desktop logo and menu -->
-
-      <div class="columns">
-
-        <div class="column is-half right-margin">
-
-          <div class="header-logo">
-
-            <img src="images/logo.png">
+            Skriver någe
 
           </div>
 
         </div>
 
-        <div class="column desk-menu"> <!-- Start: Desktop menu -->
+      </div> <!-- End: Responsive menu -->
 
-          <nav>
+      <section class="section"> <!-- Start: Desktop logo and menu -->
 
-            <ul>
+        <div class="columns"> <!-- Start: Columns -->
 
-              <li><a href="#">Hem</a></li>
-              <li><a href="#">Flygpsykologi</a></li>
-              <li><a href="#">Flygmedicin</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Medarbetare</a></li>
+          <div class="column is-half right-margin">
 
-            </ul>
+            <div class="header-logo">
 
-          </nav>
+              <img src="images/logo.png">
 
-        </div> <!-- End: Desktop menu -->
-
-      </div>
-
-    </section> <!-- End: Desktop logo and menu -->
-
-    <section class="section"> <!-- Start: Main content - About and Login -->
-
-      <div class="columns"> <!-- Start: Columns - OM FMC - BOKA TID -->
-
-        <div class="column is-half">
-
-          <div class="header-box box-darkgrey right-margin">
-
-            <p>OM FMC MALMÖ</p>
+            </div>
 
           </div>
 
-          <div class="content-box right-margin">
+          <div class="column desk-menu"> <!-- Start: Desktop menu -->
 
-            <p>QQFlygmedicinskt Centrum (FMC) i Malmö är ett självständigt aktiebolag som bedriver flyg- och dykmedicinska undersökningar. FMC är ett av landets två flygmedicinska centra som är godkänt och auktoriserat av Transportstyrelsen som Aeromedical Center (AeMC)</p>
+            <nav>
 
-            <p>Verksamheten som AeMC startade 2000 i samband med introduktionen av JAA men vår flygläkargrupp har bedrivit flygmedicinsk verksamhet i Skåne i snart 30 år.</p>
+              <ul>
 
-            <p>Auktorisationen är europeisk och utfärdas av EASA (European Aviation Safety Authority) genom Transportstyrelsen.</p>
+                <li><a href="#">Hem</a></li>
+                <li><a href="#">Flygpsykologi</a></li>
+                <li><a href="#">Flygmedicin</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Medarbetare</a></li>
 
-            <p>Auktorisationen innebär, förutom en kvalitetssäkring, rättigheten att utföra förstagångsundersökningar av blivande piloter klass 1 och blivande flygledare</p>
+              </ul>
 
-          </div>
+            </nav>
 
-          <a class="main-button" href="#">Våra tjänster</a>
+          </div> <!-- End: Desktop menu -->
 
-          <a class="main-button" href="#">Vanliga frågor</a>
+        </div> <!-- End: Columns -->
 
-        </div>
+      </section> <!-- End: Desktop logo and menu -->
 
-        <div class="column">
+    </div><!-- End: Containing all top menus -->
 
-          <div class="header-box box-green left-margin">
+    <div class="content-container-background">
 
-            <p class="header-box-title">BOKA TID</p>
+      <div class="content-container"><!-- Start: Containing all content -->
 
-          </div>
+        <section class="section"> <!-- Start: Main content - About and Login -->
 
-        </div>
+          <div class="columns"> <!-- Start: Columns - OM FMC - BOKA TID -->
 
-      </div> <!-- End: Columns - OM FMC - BOKA TID -->
+            <div class="column is-half">
 
-    </section> <!-- End: Main content - About and Login -->
+              <div class="header-box box-darkgrey right-margin">
+
+                <p>OM FMC MALMÖ</p>
+
+              </div>
+
+              <div class="content-box right-margin margin">
+
+                <p>QQFlygmedicinskt Centrum (FMC) i Malmö är ett självständigt aktiebolag som bedriver flyg- och dykmedicinska undersökningar. FMC är ett av landets två flygmedicinska centra som är godkänt och auktoriserat av Transportstyrelsen som Aeromedical Center (AeMC)</p>
+
+                <p>Verksamheten som AeMC startade 2000 i samband med introduktionen av JAA men vår flygläkargrupp har bedrivit flygmedicinsk verksamhet i Skåne i snart 30 år.</p>
+
+                <p>Auktorisationen är europeisk och utfärdas av EASA (European Aviation Safety Authority) genom Transportstyrelsen.</p>
+
+                <p>Auktorisationen innebär, förutom en kvalitetssäkring, rättigheten att utföra förstagångsundersökningar av blivande piloter klass 1 och blivande flygledare</p>
+
+              </div>
+
+              <a class="main-button" href="#">Våra tjänster</a>
+
+              <a class="main-button" href="#">Vanliga frågor</a>
+
+            </div>
+
+            <div class="column">
+
+              <div class="header-box box-green left-margin">
+
+                <p class="header-box-title">BOKA TID</p>
+
+              </div>
+
+            </div>
+
+          </div> <!-- End: Columns - OM FMC - BOKA TID -->
+
+        </section> <!-- End: Main content - About and Login -->
+
+      </div> <!-- End: Containing all content -->
+
+    </div>
 
   </div> <!-- End: Main container -->
 
   <!-- HS - Template javascript -->
-  <script src="js/scripts.js"></script>
+  <!-- <script src="js/scripts.js"></script> -->
 
   <!-- JQuery -->
   <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="crossorigin="anonymous"></script>

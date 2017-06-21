@@ -3,6 +3,8 @@
 @import conf
 @import resp
 
+/* Top properties */
+
 body
   font: $font-stack
   background-color: #FFF
@@ -18,9 +20,16 @@ p
 
 .main-container
   margin: 0 auto
+  //max-width: 1440px
+  width: 100%
+  //padding-left: 25px
+  //padding-right: 25px
+
+.content-container
   max-width: 1440px
   padding-left: 25px
   padding-right: 25px
+  margin: 0 auto
 
 /* Header */
 
@@ -29,6 +38,12 @@ p
   align-content: center
   justify-content: center
   margin-right: 50px
+
+.content-container-background
+  width: 100%
+  background: url(http://www.nmgncp.com/data/out/206/5407245-kitten-desktop-wallpaper-1920x1080.jpeg)
+  background-position: 0px 90px
+  background-repeat: no-repeat
 
 /* Main navigation */
 
@@ -73,19 +88,24 @@ ul
   p
     padding-bottom: 25px
 
+.margin
+  margin-bottom: $margin-small
+
 /* Components */
 
 .main-button
+  float: left
   background-color: $green
   color: white
   padding: 15px 40px
   text-transform: uppercase
   font-weight: 500
+  margin: 0
+  transition:           color 0.3s ease-out, background-color 0.3s ease-in
+  -webkit-transition:   color 0.3s ease-out, background-color 0.3s ease-in
+  -moz-transition:      color 0.3s ease-out, background-color 0.3s ease-in
   &:hover
     background-color: $light-grey
-    border-style: solid
-    border-color: $green
-    border-width: 1px
     color: $green
   &:last-child
     margin-left: 20px

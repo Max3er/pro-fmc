@@ -8,7 +8,8 @@ ol {
   padding: 0; }
 
 .section {
-  padding: 1.7rem 1.5rem !important; }
+  padding: 1.7rem 1.5rem !important;
+  background-color: transparent !important; }
 
 /* Fonts */
 /* Fonts responsive */
@@ -45,7 +46,8 @@ ol {
   padding: 0; }
 
 .section {
-  padding: 1.7rem 1.5rem !important; }
+  padding: 1.7rem 1.5rem !important;
+  background-color: transparent !important; }
 
 /* Fonts */
 /* Fonts responsive */
@@ -101,6 +103,7 @@ ol {
     padding: 25px !important; }
     .header-box p {
       font-size: 23px; } }
+/* Top properties */
 body {
   font: Roboto, sans-serif;
   background-color: #FFF;
@@ -116,9 +119,13 @@ p {
 
 .main-container {
   margin: 0 auto;
+  width: 100%; }
+
+.content-container {
   max-width: 1440px;
   padding-left: 25px;
-  padding-right: 25px; }
+  padding-right: 25px;
+  margin: 0 auto; }
 
 /* Header */
 .header-logo {
@@ -126,6 +133,12 @@ p {
   align-content: center;
   justify-content: center;
   margin-right: 50px; }
+
+.content-container-background {
+  width: 100%;
+  background: url(http://www.nmgncp.com/data/out/206/5407245-kitten-desktop-wallpaper-1920x1080.jpeg);
+  background-position: 0px 90px;
+  background-repeat: no-repeat; }
 
 /* Main navigation */
 .desk-menu {
@@ -164,18 +177,23 @@ ul {
   .content-box p {
     padding-bottom: 25px; }
 
+.margin {
+  margin-bottom: 25px; }
+
 /* Components */
 .main-button {
+  float: left;
   background-color: #237861;
   color: white;
   padding: 15px 40px;
   text-transform: uppercase;
-  font-weight: 500; }
+  font-weight: 500;
+  margin: 0;
+  transition: color 0.3s ease-out, background-color 0.3s ease-in;
+  -webkit-transition: color 0.3s ease-out, background-color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-out, background-color 0.3s ease-in; }
   .main-button:hover {
     background-color: #F2F2F2;
-    border-style: solid;
-    border-color: #237861;
-    border-width: 1px;
     color: #237861; }
   .main-button:last-child {
     margin-left: 20px; }
