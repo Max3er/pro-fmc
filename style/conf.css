@@ -21,8 +21,23 @@ ol {
 
 .header-box-title {
   font-weight: bold;
-  color: #FFF;
+  text-transform: uppercase;
   font-size: 28px; }
+
+/* Color Extensions */
+.text-header-color p {
+  color: #FFF; }
+
+.text-darkgrey p {
+  color: #383838; }
+
+.background-image {
+  background: url(http://www.nmgncp.com/data/out/206/5407245-kitten-desktop-wallpaper-1920x1080.jpeg);
+  background-position: 0px 90px;
+  background-repeat: no-repeat; }
+
+.background-grey {
+  background-color: #F2F2F2; }
 
 /* Margin settings /* */
 .left-margin {
