@@ -207,7 +207,23 @@ ul {
       padding-bottom: 0px; }
 
 .margin {
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  /* Box Anslagstavlan */ }
+
+date {
+  font-weight: bold; }
+
+.news-item {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dfdfdf; }
+  .news-item:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0; }
+
+.news-text {
+  display: inline; }
 
 /* Components */
 .main-button {
