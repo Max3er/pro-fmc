@@ -40,6 +40,9 @@ ol {
   background-color: #F2F2F2; }
 
 /* Margin settings /* */
+.flex-columns {
+  display: flex; }
+
 .left-margin {
   margin-left: 50px; }
 

@@ -41,6 +41,9 @@ ol {
   background-color: #F2F2F2; }
 
 /* Margin settings /* */
+.flex-columns {
+  display: flex; }
+
 .left-margin {
   margin-left: 50px; }
 
@@ -94,6 +97,9 @@ ol {
   background-color: #F2F2F2; }
 
 /* Margin settings /* */
+.flex-columns {
+  display: flex; }
+
 .left-margin {
   margin-left: 50px; }
 
@@ -207,11 +213,28 @@ ul {
       padding-bottom: 0px; }
 
 .margin {
-  margin-bottom: 25px;
-  /* Box Anslagstavlan */ }
+  margin-bottom: 25px; }
 
-date {
-  font-weight: bold; }
+/* Box Anslagstavlan och Kontakta oss */
+bold {
+  font-weight: bold;
+  color: #383838; }
+
+box-header {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-bottom: 25px !important; }
+
+.contact-item {
+  flex: 1; }
+  .contact-item:last-child {
+    text-align: right; }
+  .contact-item p {
+    display: block;
+    padding-bottom: 0px !important; }
+    .contact-item p:first-child {
+      padding-top: 25; }
 
 .news-item {
   margin-bottom: 25px;

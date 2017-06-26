@@ -90,10 +90,27 @@ ul
 .margin
   margin-bottom: $margin-small
 
-  /* Box Anslagstavlan */
+/* Box Anslagstavlan och Kontakta oss */
 
-date
+bold
   font-weight: bold
+  color: $darkgrey
+
+box-header
+  font-weight: bold
+  font-size: $box-header
+  text-transform: uppercase
+  padding-bottom: $margin-small !important
+
+.contact-item
+  flex: 1
+  &:last-child
+    text-align: right
+  p
+    display: block
+    padding-bottom: $margin-none !important
+    &:first-child
+      padding-top: 25
 
 .news-item
   margin-bottom: $margin-small
