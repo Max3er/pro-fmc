@@ -14,6 +14,13 @@ ol {
 /* Fonts responsive */
 /* Main colors */
 /* Margins */
+/* Links */
+a {
+  color: #237861; }
+
+a:hover {
+  text-decoration: underline; }
+
 /* Extensions */
 .header-main {
   font-weight: bold;
