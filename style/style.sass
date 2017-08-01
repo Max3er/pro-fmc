@@ -142,25 +142,20 @@ box-header
 /* Box Tjänster */
 
 .services-box
+  float: left
   margin-top: 160px
   background-color: white
   padding: 50px 50px 50px 50px
+  margin-bottom: 50px
 
 /* Components */
 
 .main-button
+  @extend .buttons
   float: left
-  background-color: $green
-  color: white
-  padding: 15px 40px
-  text-transform: uppercase
-  font-weight: 500
-  margin: 0
-  transition:           color 0.3s ease-out, background-color 0.3s ease-in
-  -webkit-transition:   color 0.3s ease-out, background-color 0.3s ease-in
-  -moz-transition:      color 0.3s ease-out, background-color 0.3s ease-in
-  &:hover
-    background-color: $light-grey
-    color: $green
   &:last-child
     margin-left: 20px
+
+.read-button
+  @extend .buttons
+  margin: 0 auto

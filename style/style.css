@@ -38,6 +38,20 @@ a:hover {
   -moz-box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.75); }
 
+.buttons, .main-button, .read-button {
+  background-color: #237861;
+  color: white;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+  transition: color 0.3s ease-out, background-color 0.3s ease-in;
+  -webkit-transition: color 0.3s ease-out, background-color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-out, background-color 0.3s ease-in; }
+  .buttons:hover, .main-button:hover, .read-button:hover {
+    background-color: #F2F2F2;
+    color: #237861; }
+
 /* Color Extensions */
 .text-header-color p {
   color: #FFF; }
@@ -61,6 +75,13 @@ a:hover {
 /* Margin settings /* */
 .flex-columns {
   display: flex; }
+
+.center {
+  display: flex;
+  width: 100%; }
+
+.margin-bottom {
+  padding-bottom: 75px !important; }
 
 .left-margin {
   margin-left: 50px; }
@@ -111,6 +132,20 @@ a:hover {
   -moz-box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.75); }
 
+.buttons, .main-button, .read-button {
+  background-color: #237861;
+  color: white;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+  transition: color 0.3s ease-out, background-color 0.3s ease-in;
+  -webkit-transition: color 0.3s ease-out, background-color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-out, background-color 0.3s ease-in; }
+  .buttons:hover, .main-button:hover, .read-button:hover {
+    background-color: #F2F2F2;
+    color: #237861; }
+
 /* Color Extensions */
 .text-header-color p {
   color: #FFF; }
@@ -134,6 +169,13 @@ a:hover {
 /* Margin settings /* */
 .flex-columns {
   display: flex; }
+
+.center {
+  display: flex;
+  width: 100%; }
+
+.margin-bottom {
+  padding-bottom: 75px !important; }
 
 .left-margin {
   margin-left: 50px; }
@@ -301,26 +343,19 @@ box-header {
 
 /* Box Tj├ñnster */
 .services-box {
+  float: left;
   margin-top: 160px;
   background-color: white;
-  padding: 50px 50px 50px 50px; }
+  padding: 50px 50px 50px 50px;
+  margin-bottom: 50px; }
 
 /* Components */
 .main-button {
-  float: left;
-  background-color: #237861;
-  color: white;
-  padding: 15px 40px;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin: 0;
-  transition: color 0.3s ease-out, background-color 0.3s ease-in;
-  -webkit-transition: color 0.3s ease-out, background-color 0.3s ease-in;
-  -moz-transition: color 0.3s ease-out, background-color 0.3s ease-in; }
-  .main-button:hover {
-    background-color: #F2F2F2;
-    color: #237861; }
+  float: left; }
   .main-button:last-child {
     margin-left: 20px; }
+
+.read-button {
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */

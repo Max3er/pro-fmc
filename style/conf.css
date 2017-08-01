@@ -36,6 +36,20 @@ a:hover {
   -moz-box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 17px -1px rgba(0, 0, 0, 0.75); }
 
+.buttons {
+  background-color: #237861;
+  color: white;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+  transition: color 0.3s ease-out, background-color 0.3s ease-in;
+  -webkit-transition: color 0.3s ease-out, background-color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-out, background-color 0.3s ease-in; }
+  .buttons:hover {
+    background-color: #F2F2F2;
+    color: #237861; }
+
 /* Color Extensions */
 .text-header-color p {
   color: #FFF; }
@@ -59,6 +73,13 @@ a:hover {
 /* Margin settings /* */
 .flex-columns {
   display: flex; }
+
+.center {
+  display: flex;
+  width: 100%; }
+
+.margin-bottom {
+  padding-bottom: 75px !important; }
 
 .left-margin {
   margin-left: 50px; }
